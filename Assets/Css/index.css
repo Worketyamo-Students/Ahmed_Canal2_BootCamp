@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap
+
+:root {
+    /* size */
+    --FontSizeDefault: 10px;
+
+    /* font family */
+    --Ibm-sans: "IBM Plex Sans Hebrew", sans-serif;
+    --Inter: "Inter", sans-serif;
+    --Open-sans: "Open Sans", sans-serif;
+
+    /* color */
+    --Primary-color: #618264;
+    --Active-color: #79AC78;
+    --link-color: #000E01;
+    --title-text-color: #443434;
+    --White-color: #FFFFFF;
+
+    /* font weight */
+    --Regular: 400;
+    --Semibold: 600;
+    --Bold: 700;
+
+    /* Raduis */
+    --raduis1: 1rem;
+    --raduis2: 2rem;
+    --raduis-button: 5rem;
+}
