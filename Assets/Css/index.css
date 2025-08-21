@@ -43,6 +43,7 @@ body {
     height: 100%;
     overflow-x: hidden;
     background: var(--White-color);
+    position: relative;
 }
 
 header {
@@ -90,7 +91,54 @@ header ul a {
     display: none;
 }
 
+.navlinks {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #39bdccc5;
+    left: 100vw;
+    transition: all .30s ease;
+    top: 0;
+}
 
+.navlinks ul{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    list-style: none;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    gap: 5rem;
+}
+
+.navlinks ul a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.close {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 2rem;
+}
+
+.close ion-icon {
+    font-size: 5rem;
+    background: var(--White-color);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+ion-icon:active {
+    transform: scale(.9);
+}
 
 @media only screen and (max-width: 870px) {
     
@@ -111,8 +159,9 @@ header ul a {
     header {
         padding: 0 2rem;
     }
+
     header a img {
-        width: 10rem;
+        width: 8rem;
     }
 
     header .btn {
@@ -122,5 +171,10 @@ header ul a {
 
     header .menu ion-icon {
         font-size: 5rem;
+    }
+
+    .navmenu {
+        left: 0;
+        transition: all .30s ease;
     }
 }
