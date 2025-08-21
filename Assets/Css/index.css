@@ -108,8 +108,19 @@ header ul a {
 }
 
 @media only screen and (max-width: 640px) {
+    header {
+        padding: 0 2rem;
+    }
+    header a img {
+        width: 10rem;
+    }
+
     header .btn {
         display: none;
     }
     
+
+    header .menu ion-icon {
+        font-size: 5rem;
+    }
 }
