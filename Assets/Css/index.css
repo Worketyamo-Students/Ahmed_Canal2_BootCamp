@@ -306,12 +306,19 @@ ion-icon:active {
         height: 85rem;
         margin-top: 5rem;
         padding: 0;
+        justify-content: initial;
     }
 
     .francis_article_one {
         border-bottom: .2rem solid var(--title-text-color);
         padding-bottom: 4rem;
         height: 20rem;
+        margin-top: 4rem;
+    }
+
+    .francis_article a:nth-child(4) .francis_article_one {
+        border-bottom: none;
+        padding-bottom: 0;
     }
 
     .francis_article_one_text h3 {
