@@ -181,3 +181,117 @@ ion-icon:active {
         transition: all .30s ease;
     }
 }
+
+
+.francis{
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    margin-top: 5rem;
+}
+
+.francis_actu{
+    width: 55%;
+    background: linear-gradient(to top, #000000c7, rgba(0, 0, 0, 0)), url(../Images/Francis.png) center top / cover;
+    border-radius: 2rem;
+    padding: 2rem;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.francis_actu .text{
+    color: #fff;
+    border-left: 1rem solid var(--Primary-color);
+    padding: 0 1.6rem;
+}
+
+.francis_actu .text h2{
+    font-size: 4.5rem;
+    font-family: var(--Ibm-sans);
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+.francis_actu .text span{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.francis_article{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.francis_article h2{
+    border-left: .8rem solid var(--Primary-color);
+    padding: .8rem;
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: var(--Ibm-sans);
+}
+
+.francis_article a{
+    text-decoration: none;
+    color: var(--title-text-color);
+}
+
+.francis_article_one{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 15rem;
+}
+
+.francis_article_one_img{
+    width: 50%;
+    height: 100%;
+    background: no-repeat url(../Images/enfant.png) center top / cover;
+    border-radius: 1.5rem;
+}
+
+.francis_article_one_text{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.francis_article_one_text h3{
+    font-size: 2.4rem;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.francis_article_one_text span{
+    font-size: 1.9rem;
+}
+
+
+@media only screen and (max-width: 640px) {
+    .francis {
+        flex-direction: column;
+        height: 120rem;
+        padding: 0 2rem;
+        margin: 3rem 0;
+    }
+
+    .francis_actu {
+        width: 100%;
+        height: 55rem;
+    }
+
+    .francis_article {
+        width: 100%;
+        height: 65rem;
+        margin-top: 5rem;
+        padding: 0;
+    }
+}
